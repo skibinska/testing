@@ -60,7 +60,6 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 * Links to your github account, and examines every commit you do, letting you know if your code got better, or worse.
 * Allows you to keep an eye on your code test coverage.
 * Uses for code quality analysis.
-* Automated code review tool and coverage reporting.
 
 ## Resources
 
