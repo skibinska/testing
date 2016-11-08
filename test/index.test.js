@@ -6,3 +6,9 @@ test('Should add two numbers', function (t) {
   t.equal(test, 3);
   t.end();
 });
+
+test('Should multiply two numbers', function (t) {
+  var test = calculator.multiply(1,2);
+  t.equal(test, 2);
+  t.end();
+});
