@@ -1,3 +1,28 @@
+---
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+ratings:
+  paths:
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.php"
+  - "**.py"
+  - "**.rb"
+exclude_paths:
+- test/
 engines:
   rubocop:
     enabled: true
@@ -14,8 +39,6 @@ engines:
   enabled: true
     config:
     languages:
-      - ruby
-      	#mass_threshold: 30
       - javascript
 ratings:
   paths:
