@@ -50,7 +50,7 @@ npm run watch
 ```
 Run coverage
 ```
-istanbul cover test/index.test.js
+`npm run coverage
 ```
 
 ## What is continuous integration (CI)?
