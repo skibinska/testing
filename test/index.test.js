@@ -12,3 +12,9 @@ test('Should multiply two numbers', function (t) {
   t.equal(test, 2);
   t.end();
 });
+
+test('Should divide by two numbers', function (t) {
+  var test = calculator.divide(6,2);
+  t.equal(test, 3);
+  t.end();
+});
