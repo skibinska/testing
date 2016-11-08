@@ -22,7 +22,7 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 ## Tools
 
 * **Istanbul**: Javascript coverage tool
-* **Travis**: Continuous integration
+* **Travis**: Continuous Integration service
 * **Code Climate**: Automated code review tool and coverage reporting
 
 ## Steps
@@ -51,10 +51,8 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 
 ## What is Travis CI?
 
-* Continuous Integration service.
-* Free for open-source projects.
 * Travis sets up “hooks” with GitHub to automatically run tests at specified times.
-* By default, these are set up to run after a pull request is created or when code is pushed up to GitHub.
+  By default, these are set up to run after a pull request is created or when code is pushed up to GitHub.
 
 
 ## What is Code Climate?
