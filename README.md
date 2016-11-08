@@ -14,27 +14,16 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 * generate coverage reports
 * automated code review
 
- Other requirements:
+### Other requirements:
+
 * tests should run successfully to execute commits
 * coverage limits should be checked to successfully push code
 
 ## Tools
 
-* istanbul: Javascript coverage tool;
-* travis: Continuous integration made easy;
-* codeclimate: Automated code review tool and coverage reporting;
-
-## What is continuous integration (CI)?
-
-* is a software engineering practice in which isolated changes are immediately tested and reported on when they are added to a larger code base.
-
-### Best practices of CI include:
-
-* Committing code frequently.
-* Categorizing developer tests.
-* Using a dedicated integration build machine.
-* Using continuous feedback mechanisms.
-* Staging builds.
+* **Istanbul**: Javascript coverage tool
+* **Travis**: Continuous integration
+* **Code Climate**: Automated code review tool and coverage reporting
 
 ## Steps
 1. create github repo with readme and clone it, how to;
@@ -50,12 +39,15 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 11. execute grunt test and check they are passing and check coverage report;
 12. push to master and check codeclimate information;
 
+## What is continuous integration (CI)?
+
+* is a software engineering practice in which isolated changes are immediately tested and reported on when they are added to a larger code base.
+
+
 ## What is Istanbul?
 
 
-#### Resources
 
-* [dwyl tutorial](https://github.com/dwyl/learn-istanbul)
 
 ## What is Travis CI?
 
@@ -64,9 +56,6 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 * Travis sets up “hooks” with GitHub to automatically run tests at specified times.
 * By default, these are set up to run after a pull request is created or when code is pushed up to GitHub.
 
-### Set Up Travis
-
-
 
 ## What is Code Climate?
 
@@ -74,3 +63,7 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 * Allows you to keep an eye on your code test coverage.
 * Uses for code quality analysis.
 * Automated code review tool and coverage reporting.
+
+## Resources
+
+* [dwyl tutorial](https://github.com/dwyl/learn-istanbul)
