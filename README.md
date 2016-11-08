@@ -4,6 +4,8 @@
 [![Code Climate](https://codeclimate.com/github/skibinska/testing/badges/gpa.svg)](https://codeclimate.com/github/skibinska/testing)
 [![Test Coverage](https://codeclimate.com/github/skibinska/testing/badges/coverage.svg)](https://codeclimate.com/github/skibinska/testing/coverage)
 [![Issue Count](https://codeclimate.com/github/skibinska/testing/badges/issue_count.svg)](https://codeclimate.com/github/skibinska/testing)
+[![codecov](https://codecov.io/gh/skibinska/testing/branch/master/graph/badge.svg)](https://codecov.io/gh/skibinska/testing)
+
 
 A sample project on setting up continuous integration with GitHub, Travis CI, Istanbul and Code Climate.
 
