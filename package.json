@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tape './test/**/*.js'"
+    "test": "tape './test/**/*.js' | tap-spec",
+    "watch": "nodemon -q -x 'npm test'",
+    "coverage": "istanbul cover test/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/skibinska/testing#readme",
   "devDependencies": {
     "istanbul": "^0.4.5",
-    "tape": "^4.6.2"
+    "tape": "^4.6.2",
+    "tap-spec": "^4.1.1"
   }
 }
