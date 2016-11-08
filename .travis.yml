@@ -5,4 +5,8 @@ node_js:
   - "5.11"
 addons:
   code_climate:
-    repo_token: 959c70f44d7349d91169293c6de2f31797f6bbac97e0b96460cfa537c49446c0
+    repo_token: 959c70f44d7349d91169293c6de2f31797f6bbac97e0b96460cfa537c49446c0    
+before_install:
+  - pip install --user codecov
+after_success:
+  - codecov --file coverage/lcov.info --disable search
