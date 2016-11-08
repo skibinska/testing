@@ -7,6 +7,23 @@
 
 A sample project on setting up continuous integration with GitHub, Travis CI, Istanbul and Code Climate.
 
+## Requirements for project setup:
+
+* automatic builds
+* run tests
+* generate coverage reports
+* automated code review
+
+ Other requirements:
+* tests should run successfully to execute commits
+* coverage limits should be checked to successfully push code
+
+## Tools
+
+* istanbul: Javascript coverage tool;
+* travis: Continuous integration made easy;
+* codeclimate: Automated code review tool and coverage reporting;
+
 ## What is continuous integration (CI)?
 
 * is a software engineering practice in which isolated changes are immediately tested and reported on when they are added to a larger code base.
