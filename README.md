@@ -39,6 +39,20 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 11. execute grunt test and check they are passing and check coverage report;
 12. push to master and check codeclimate information;
 
+## Set up
+Run
+```
+npm install
+```
+Run test
+```
+npm run watch
+```
+Run coverage
+```
+istanbul cover test/index.test.js
+```
+
 ## What is continuous integration (CI)?
 
 * is a software engineering practice in which isolated changes are immediately tested and reported on when they are added to a larger code base.
