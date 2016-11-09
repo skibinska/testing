@@ -3,6 +3,12 @@ node_js:
   - "6"
   - "6.1"
   - "5.11"
+before_script:
+  - npm install
+
+script:
+  - npm test
+
 addons:
   code_climate:
     repo_token: 959c70f44d7349d91169293c6de2f31797f6bbac97e0b96460cfa537c49446c0
