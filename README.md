@@ -7,8 +7,7 @@
 [![codecov](https://codecov.io/gh/skibinska/testing/branch/master/graph/badge.svg)](https://codecov.io/gh/skibinska/testing)
 
 
-A sample project on setting up continuous integration with GitHub, Travis CI, Istanbul and Code Climate.
-
+A sample project on setting up continuous integration with GitHub, Travis CI, Istanbul, Code Climate and Codecov.
 ## Requirements for project setup:
 
 * automatic builds
@@ -31,8 +30,8 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 1. create github repo with readme and clone it;
 2. register or signup in [travis-ci.org](https://travis-ci.org/)
 3. link github repo on travis;
-4. register or signup in [codeclimate](https://codeclimate.com)
-5. link github repo on codeclimate
+4. register or signup in [codeclimate](https://codeclimate.com) and/or [codecov](https://codecov.io)
+5. link github repo on codeclimate and/or codecov
 6. add .travis.yml
 7. encrypt your codeclimate token;
 8. push to master;
