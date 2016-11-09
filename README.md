@@ -31,7 +31,7 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 1. create github repo with readme and clone it;
 2. register or signup in [travis-ci.org](https://travis-ci.org/)
 3. link github repo on travis;
-4. register or signup in codeclimate
+4. register or signup in [codeclimate](https://codeclimate.com)
 5. link github repo on codeclimate
 6. add .travis.yml
 7. encrypt your codeclimate token;
