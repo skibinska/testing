@@ -62,8 +62,7 @@ Run coverage
 
 ## What is Istanbul?
 
-
-
+* Javascript coverage tool
 
 ## What is Travis CI?
 
@@ -79,4 +78,4 @@ Run coverage
 
 ## Resources
 
-* [dwyl tutorial](https://github.com/dwyl/learn-istanbul)
+* [dwyl tutorail on istanbul](https://github.com/dwyl/learn-istanbul)
