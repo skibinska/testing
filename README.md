@@ -62,7 +62,7 @@ Run coverage
 
 ## What is Istanbul?
 
-* Javascript coverage tool
+* is a code coverage analysis script you run when executing your unit tests.
 
 ## What is Travis CI?
 
@@ -77,5 +77,6 @@ Run coverage
 * Uses for code quality analysis.
 
 ## Resources
-* [dwyl tutorail on Travis CI](https://github.com/dwyl/learn-travis)
-* [dwyl tutorail on istanbul](https://github.com/dwyl/learn-istanbul)
+* [Continuous integration](https://www.thoughtworks.com/continuous-integration)
+* [dwyl tutorial on Travis CI](https://github.com/dwyl/learn-travis)
+* [dwyl tutorial on istanbul](https://github.com/dwyl/learn-istanbul)
