@@ -1,16 +1,18 @@
 language: node_js
-node_js:
-  - "6"
-  - "6.1"
-  - "5.11"
+node_js: "6"
+before_script:
+  - npm install
+
+script:
+  - npm test
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+  
 addons:
   code_climate:
     repo_token: 959c70f44d7349d91169293c6de2f31797f6bbac97e0b96460cfa537c49446c0
 
-before_install:
-  - pip install --user codecov
-after_success:
-  - codecov --file coverage/lcov.info --disable search
 env:
   global:
     CODECLIMATE_REPO_TOKEN=959c70f44d7349d91169293c6de2f31797f6bbac97e0b96460cfa537c49446c0 codeclimate-test-reporter < lcov.info
