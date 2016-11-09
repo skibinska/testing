@@ -77,5 +77,5 @@ Run coverage
 * Uses for code quality analysis.
 
 ## Resources
-
+* [dwyl tutorail on Travis CI](https://github.com/dwyl/learn-travis)
 * [dwyl tutorail on istanbul](https://github.com/dwyl/learn-istanbul)
