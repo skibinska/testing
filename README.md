@@ -28,9 +28,9 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 * **Code Climate**: Automated code review tool and coverage reporting
 
 ## Steps
-1. create github repo with readme and clone it, how to;
+1. create github repo with readme and clone it;
 2. register or signup in travis-ci.org
-3. link github repo on travis, help;
+3. link github repo on travis;
 4. register or signup in codeclimate
 5. link github repo on codeclimate
 6. add .travis.yml
@@ -38,7 +38,7 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 8. push to master;
 9. build should pass;
 10. add some module and specs;
-11. execute grunt test and check they are passing and check coverage report;
+11. execute test and check they are passing and check coverage report;
 12. push to master and check codeclimate information;
 
 ## Set up
