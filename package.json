@@ -7,8 +7,7 @@
     "test": "tape './test/**/*.js' | tap-spec",
     "watch": "nodemon -q -x 'npm test'",
     "coverage": "istanbul cover test/index.test.js",
-    "codeclimate": "CODECLIMATE_REPO_TOKEN=959c70f44d7349d91169293c6de2f31797f6bbac97e0b96460cfa537c49446c0 ./node_modules/codeclimate-test-reporter/bin/codeclimate.js < ./coverage/lcov.info",
-
+    "codeclimate": "CODECLIMATE_REPO_TOKEN=959c70f44d7349d91169293c6de2f31797f6bbac97e0b96460cfa537c49446c0 ./node_modules/codeclimate-test-reporter/bin/codeclimate.js < ./coverage/lcov.info"
   },
   "repository": {
     "type": "git",
