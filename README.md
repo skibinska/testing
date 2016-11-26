@@ -94,7 +94,7 @@ To start a build, perform one of the following:
 
 4. **Add badge to your README.md**
 
-Copy and paste badge from for travis webpage.
+Copy and paste badge from from travis webpage.
 
 ## What is Code Climate?
 
