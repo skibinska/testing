@@ -25,20 +25,15 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 * **Istanbul**: Javascript coverage tool
 * **Travis**: Continuous Integration service
 * **Code Climate**: Automated code review tool and coverage reporting
+* **CodeCov**: Automated code review tool and coverage reporting
 
 ## Setup
-Run
-```
-npm install
-```
-Run test
-```
-npm run watch
-```
-Run coverage
-```
-`npm run coverage
-```
+
+* Clone this repo and cd into it
+* Run ```npm install``` to install all dependencies
+* To run the tests, run ```npm test watch```
+* To run coverage, run ```npm run coverage```
+
 ## Steps
 1. create github repo with readme and clone it;
 2. register or signup in [travis-ci.org](https://travis-ci.org/)
