@@ -66,7 +66,7 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 
 ### Step by step
 
-1. Activate GitHub Repositories
+1. **Activate GitHub Repositories**
 
 Once you're signed in, and we've initially synchronized your repositories from GitHub, go to your profile page for open source or for your private projects.
 
@@ -74,13 +74,13 @@ You'll see all the organizations you're a member of and all the repositories you
 
 Flip the switch to on for all repositories you'd like to enable.
 
-2. Add .travis.yml file to your repository
+2. **Add .travis.yml file to your repository**
 
 In order for Travis CI to build your project, you need to tell the systems a little bit about it. You'll need to add a file named .travis.yml to the root of your repository.
 
 If .travis.yml is not in the repository, is misspelled or is not valid YAML, Travis CI will ignore it.
 
-3. Trigger your first build with a git push
+3. **Trigger your first build with a git push**
 
 Once the GitHub hook is set up, push your commit that adds .travis.yml to your repository. That should add a build into one of the queues on Travis CI and your build will start as soon as one worker for your language is available.
 
@@ -89,6 +89,8 @@ To start a build, perform one of the following:
 * Commit and push something to your repository
 * Go to your repository's settings page, click on "Integrations & services" on the left menu, choose "Travis CI" in the "Services", and use the "Test service" button.
 
+4. **Add badge to your README.md**
+Copy and paste badge from for travis webpage.
 
 ## What is Code Climate?
 
