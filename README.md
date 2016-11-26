@@ -87,7 +87,7 @@ Once the GitHub hook is set up, push your commit that adds .travis.yml to your r
 To start a build, perform one of the following:
 
 * Commit and push something to your repository
-* Go to your repository's settings page, click on "Webhooks & Services" on the left menu, choose "Travis CI" in the "Services", and use the "Test service" button.
+* Go to your repository's settings page, click on "Integrations & services" on the left menu, choose "Travis CI" in the "Services", and use the "Test service" button.
 
 
 ## What is Code Climate?
