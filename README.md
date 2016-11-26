@@ -78,6 +78,12 @@ Flip the switch to on for all repositories you'd like to enable.
 
 In order for Travis CI to build your project, you need to tell the systems a little bit about it. You'll need to add a file named .travis.yml to the root of your repository.
 
+.travis.yml
+```
+language: node_js
+node_js: "6"
+```
+
 If .travis.yml is not in the repository, is misspelled or is not valid YAML, Travis CI will ignore it.
 
 3. **Trigger your first build with a git push**
