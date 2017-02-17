@@ -89,8 +89,8 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 
   To start a build, perform one of the following:
 
-* Commit and push something to your repository
-* Go to your repository's settings page, click on **"Integrations & services"** on the left menu, choose "Travis CI" in the "Services", and use the "Test service" button.
+  * Commit and push something to your repository
+  * Go to your repository's settings page, click on **"Integrations & services"** on the left menu, choose "Travis CI" in the "Services", and use the "Test service" button.
 
 4. **Add badge to your README.md**
 
