@@ -65,36 +65,36 @@ A sample project on setting up continuous integration with GitHub, Travis CI, Is
 
 1. **Activate GitHub Repositories**
 
-Once you're signed in, go to your profile page for open source.
+  Once you're signed in, go to your profile page for open source.
 
-You'll see all the organizations you're a member of and all the repositories you have access to. The ones you have administrative access to are the ones you can enable the service hook for.
+  You'll see all the organizations you're a member of and all the repositories you have access to. The ones you have administrative access to are the ones you can enable the service hook for.
 
-Flip the switch to on for the repository you'd like to enable.
+  Flip the switch to on for the repository you'd like to enable.
 
 2. **Add .travis.yml file to your repository**
 
-In order for Travis CI to build your project, you need to tell the systems a little bit about it. You'll need to add a file named .travis.yml to the root of your repository.
+  In order for Travis CI to build your project, you need to tell the systems a little bit about it. You'll need to add a file named .travis.yml to the root of your repository.
 
-.travis.yml
-```
-language: node_js
-node_js: "6"
-```
+  .travis.yml
+  ```
+  language: node_js
+  node_js: "6"
+  ```
 
-If .travis.yml is not in the repository, is misspelled or is not valid YAML, Travis CI will ignore it.
+  If .travis.yml is not in the repository, is misspelled or is not valid YAML, Travis CI will ignore it.
 
 3. **Trigger your first build with a git push**
 
-Once the GitHub hook is set up, push your commit that adds .travis.yml to your repository. That should add a build into one of the queues on Travis CI and your build will start as soon as one worker for your language is available.
+  Once the GitHub hook is set up, push your commit that adds .travis.yml to your repository. That should add a build into one of the queues on Travis CI and your build will start as soon as one worker for your language is available.
 
-To start a build, perform one of the following:
+  To start a build, perform one of the following:
 
 * Commit and push something to your repository
 * Go to your repository's settings page, click on **"Integrations & services"** on the left menu, choose "Travis CI" in the "Services", and use the "Test service" button.
 
 4. **Add badge to your README.md**
 
-Copy and paste badge from from travis webpage.
+  Copy and paste badge from from travis webpage.
 
 ## What is Code Climate?
 
